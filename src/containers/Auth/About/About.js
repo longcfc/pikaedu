@@ -64,23 +64,23 @@ const About = React.memo(function ProjectCard() {
           <CardContent className={cardStyles.content}>
             <TextInfoContent
               classes={styles}
-              overline={"Course Hub"}
+              overline={"Phenikaa Edu (PKA-EDU)"}
               heading={"About"}
               body={
-                "This is an E-learning Web App was bootstrapped with Create React App and other libraries. The UI build base on Material-UI along with the associated library ecosystem."
+                "Đây là website nằm trong dự án bài tập lớn đề tài 'Website học lập trình online PhenikaaEdu' học phần 'Giao diện người máy'."
               }
             />
             <TextInfoContent
               classes={styles}
               body={
-                "This Website is using sample data like image and description the courses from Udemy. It is for non-commercial learning purposes only."
+                " Các khoá học trong website này được lấy mẫu miêu tả từ nhiều nguồn miễn phí trên Internet, không bao gồm bản quyền."
               }
             />
             <Box mt={3}>
               <TextInfoContent
                 classes={styles}
                 heading={
-                  "For my particular thanks to the authors of the following libraries:"
+                  "Các thư viện và tài liệu sử dụng:"
                 }
               />
               <Box className={cardStyles.chip}>

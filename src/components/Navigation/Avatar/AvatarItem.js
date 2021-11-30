@@ -59,7 +59,7 @@ const AvatarItem = ({ onSideOpen }) => {
         variant="dot"
         onClick={onSideOpen}
       >
-        <Avatar alt="Remy Sharp" src="https://i.pravatar.cc/150?img=14" />
+        <Avatar alt="Remy Sharp" src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.6435-9/235832699_2746514922306964_8971730539189676268_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=isz-nw17vUYAX_p6Srx&tn=QjzTQRL2JDLTWDCe&_nc_ht=scontent.fhan5-8.fna&oh=dc2181a2d082c8b31d9d3ea90aacfe0f&oe=61A2FA9A" />
       </StyledBadge>
     </div>
   );

@@ -64,7 +64,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
           >
             <Avatar
               className={styles.avatar}
-              src={"https://i.pravatar.cc/150?img=14"}
+              src={"https://scontent.fhan5-8.fna.fbcdn.net/v/t1.6435-9/235832699_2746514922306964_8971730539189676268_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=isz-nw17vUYAX_p6Srx&tn=QjzTQRL2JDLTWDCe&_nc_ht=scontent.fhan5-8.fna&oh=dc2181a2d082c8b31d9d3ea90aacfe0f&oe=61A2FA9A"}
             />
           </Badge>
           <h3 className={styles.heading}>{user.taiKhoan}</h3>
@@ -77,7 +77,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
       ) : null}
       <Divider light />
       <Typography className={styles.subheader}>
-        Designed by niemtin007
+        Designed by longX
       </Typography>
       <Typography className={styles.subheader} style={{ marginBottom: 0 }}>
         Contact me
@@ -86,7 +86,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         <IconButton
           size="small"
           component={Link}
-          href="https://www.facebook.com/niemtin007"
+          href="https://www.facebook.com/profile.php?id=100008454486513"
           target="_blank"
           rel="noopener"
         >
@@ -95,7 +95,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         <IconButton
           size="small"
           component={Link}
-          href="https://github.com/niemtin007"
+          href="https://github.com/longcfc"
           target="_blank"
           rel="noopener"
         >
@@ -103,7 +103,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         </IconButton>
       </Box>
       <Typography className={styles.subheader}>
-        © Copyright 2020 CourseHub.
+        PKAEdu 2021
       </Typography>
     </Card>
   );
