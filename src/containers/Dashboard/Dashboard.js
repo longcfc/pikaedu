@@ -283,13 +283,7 @@ function Dashboard({ darkTheme }) {
 
       <Box my={5} style={{ minHeight: 520 }}>
         <Box mx={6} py={3}>
-          <Typography variant="h5" gutterBottom>
-            <strong>The world's most useless selection of courses</strong>
-          </Typography>
-          <Typography variant="subtitle1" gutterBottom>
-            Choose from 1000 online video courses with new additions published
-            every decade
-          </Typography>
+          
         </Box>
         <CourseList />
       </Box>
@@ -310,7 +304,7 @@ function Dashboard({ darkTheme }) {
             </Box>
             <Box mt={3}>
               <Typography>
-                Simply sign up as a verified user on Course Hub to start to
+                Simply sign up as a verified user on Phenikaa Edu to start to
                 access many good course resourses.
               </Typography>
             </Box>
@@ -376,8 +370,8 @@ function Dashboard({ darkTheme }) {
                   Easy to search the topic you want to learn or teaching
                 </Typography>
                 <Typography style={{ marginTop: 16 }}>
-                  Course Hub is collect on many resourses. People who study at
-                  the Course Hub can archive knowledge by join suitable topic.
+                  Phenikaa Edu is collect on many resourses. People who study at
+                  the Phenikaa Edu can archive knowledge by join suitable topic.
                 </Typography>
               </Box>
             </Box>
@@ -408,10 +402,10 @@ function Dashboard({ darkTheme }) {
               </Typography>
               <Box ml={1} display="flex" flexDirection="column">
                 <Typography variant="h4">
-                  Course Hub users easy to achieve the desired skills
+                  Phenikaa Edu users easy to achieve the desired skills
                 </Typography>
                 <Typography style={{ marginTop: 16 }}>
-                  Course Hub system is meticulously built to enhance the
+                  Phenikaa Edu system is meticulously built to enhance the
                   interaction between students and teachers. It provides an
                   authentic and easy experience to gain knowledge as well as
                   help teachers easily access students
